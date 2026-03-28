@@ -6,3 +6,4 @@ joblib
 tensorflow
 openpyxl
 xlsxwriter
+scikit-learn
