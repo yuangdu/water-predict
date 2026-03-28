@@ -71,7 +71,7 @@ if 'pred_results' in st.session_state:
             yaxis_title=selected_col, 
             hovermode="x unified"
         )
-        fig.update_xaxes(autorange="reversed")
+        
         
         st.plotly_chart(fig, use_container_width=True)
 else:
